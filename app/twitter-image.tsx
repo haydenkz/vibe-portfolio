@@ -32,8 +32,9 @@ export default function TwitterImage() {
           <div style={{ fontSize: 72, fontWeight: 700, letterSpacing: -1 }}>
             Hayden — hayden.ooo
           </div>
-          <div style={{ fontSize: 34, opacity: 0.9 }}>
-            CS student — builder — <span style={{ opacity: 1 }}>@haydendevs</span>
+          <div style={{ display: "flex", fontSize: 34, opacity: 0.9 }}>
+            <span>CS student — builder — </span>
+            <span style={{ opacity: 1, marginLeft: 8 }}>@haydendevs</span>
           </div>
         </div>
       </div>
